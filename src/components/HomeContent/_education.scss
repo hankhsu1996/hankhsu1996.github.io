@@ -18,6 +18,12 @@
     font-size: 1.65rem;
   }
 
+  @media (max-width: 767px) {
+    > p {
+      font-size: 1.55rem;
+    }
+  }
+
   h3 + h4 {
     margin-top: 0.5em;
     margin-bottom: 0;

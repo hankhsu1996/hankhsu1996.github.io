@@ -1,0 +1,14 @@
+@import "./content";
+@import "./work";
+@import "./education";
+
+.site-content {
+  flex-grow: 1;
+  padding: 60px 0;
+}
+
+@media (max-width: 767px) {
+  .site-content {
+    padding: 40px 0;
+  }
+}

@@ -1,0 +1,48 @@
+@import "../../assets/styles/normalize";
+@import "../../assets/styles/basics";
+@import "../../assets/styles/utilities";
+@import "../../assets/styles/grid";
+@import "../../assets/styles/button";
+
+.site-cover {
+  position: relative;
+  display: flex;
+  padding: 30px;
+  min-height: 350px;
+
+  img {
+    user-select: none;
+  }
+
+  .cover-content {
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    max-width: 500px;
+    color: var(--white-color);
+    text-align: center;
+    user-select: text;
+
+    .cover-logo {
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+      align-items: center;
+      background: linear-gradient(240deg, #fc466b 0%, #3f5efb 100%);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cover-description {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+    .cover-description::selection {
+      background: var(--selection-color-dark);
+      color: var(--white-color);
+    }
+  }
+}

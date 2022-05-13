@@ -1,0 +1,33 @@
+.logo {
+  user-select: none;
+
+  :hover {
+    text-decoration: none;
+  }
+
+  .logo-text {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+
+    span {
+      margin-left: 3px;
+    }
+  }
+}
+
+.logo-dark {
+  color: var(--darker-gray-color);
+}
+
+.logo-light {
+  color: var(--white-color);
+}
+
+.logo-lg {
+  transform: scale(1.2);
+}

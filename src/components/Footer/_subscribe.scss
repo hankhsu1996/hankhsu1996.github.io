@@ -1,0 +1,45 @@
+.subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  user-select: none;
+}
+
+.subscribe-link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.subscribe-link .icon {
+  position: relative;
+  font-size: 20px;
+  padding-bottom: 2pt;
+}
+
+.subscribe-link .icon-github {
+  color: #181717;
+}
+
+.subscribe-link .icon-linkedin {
+  color: #0a66c2;
+  font-size: 21px;
+}
+
+.subscribe-link .icon-email {
+  color: #e65f5c;
+  font-size: 19px;
+  padding-bottom: 1pt;
+}
+
+.icon-github + .subscribe-text {
+  margin-left: 6px;
+}
+
+.icon-linkedin + .subscribe-text {
+  margin-left: 6px;
+}
+
+.icon-email + .subscribe-text {
+  margin-left: 5px;
+}

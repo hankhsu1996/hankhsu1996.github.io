@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -31,15 +32,9 @@ class Header extends React.Component {
         </div>
         <div className="header-right">
           <nav className="main-nav hidden-xs hidden-sm ">
-            <Link to="/" className="menu-item menu-item-current">
-              Home
-            </Link>
-            <Link to="projects" className="menu-item">
-              Projects
-            </Link>
-            <Link to="contact" className="menu-item">
-              Contact
-            </Link>
+            <MenuItem to="/">Home</MenuItem>
+            <MenuItem to="/projects">Projects</MenuItem>
+            <MenuItem to="/contact">Contact</MenuItem>
           </nav>
           <div
             className={
@@ -55,15 +50,9 @@ class Header extends React.Component {
             </button>
             <div className="popup">
               <div className="mobile-menu">
-                <Link to="/" className="menu-item menu-item-current">
-                  Home
-                </Link>
-                <Link to="projects" className="menu-item">
-                  Projects
-                </Link>
-                <Link to="contact" className="menu-item">
-                  Contact
-                </Link>
+                <MenuItem to="/">Home</MenuItem>
+                <MenuItem to="/projects">Projects</MenuItem>
+                <MenuItem to="/contact">Contact</MenuItem>
               </div>
             </div>
           </div>
@@ -73,12 +62,19 @@ class Header extends React.Component {
   }
 }
 
-// const Header = () => {
-//   popup(e) {
-//     e.preventDefault();
-//     console.log("popup");
-//   };
-
-// };
+const MenuItem = (props) => {
+  console.log(window.location.pathname);
+  console.log(props.to);
+  const isActive = props.to === window.location.pathname;
+  console.log(isActive);
+  return (
+    <Link
+      to={props.to}
+      className={isActive ? "menu-item menu-item-current" : "menu-item"}
+    >
+      {props.children}
+    </Link>
+  );
+};
 
 export default Header;

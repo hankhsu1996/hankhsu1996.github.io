@@ -9,37 +9,42 @@
   align-items: center;
   font-size: 16px;
   font-weight: 500;
-}
 
-.subscribe-link .icon {
-  position: relative;
-  font-size: 20px;
-  padding-bottom: 2pt;
-}
+  .subscribe-text {
+    flex: 1 0 auto;
+  }
 
-.subscribe-link .icon-github {
-  color: #181717;
-}
+  .icon {
+    position: relative;
+    font-size: 20px;
+    padding-bottom: 1pt;
+  }
 
-.subscribe-link .icon-linkedin {
-  color: #0a66c2;
-  font-size: 21px;
-}
+  .icon-github {
+    color: #181717;
+    padding-bottom: 2pt;
+  }
 
-.subscribe-link .icon-email {
-  color: #e65f5c;
-  font-size: 19px;
-  padding-bottom: 1pt;
-}
+  .icon-linkedin {
+    color: #0a66c2;
+    font-size: 21px;
+    padding-bottom: 1.5pt;
+  }
 
-.icon-github + .subscribe-text {
-  margin-left: 6px;
-}
+  .icon-email {
+    color: #e65f5c;
+    font-size: 19px;
+  }
 
-.icon-linkedin + .subscribe-text {
-  margin-left: 6px;
-}
+  .icon-github + .subscribe-text {
+    margin-left: 6px;
+  }
 
-.icon-email + .subscribe-text {
-  margin-left: 5px;
+  .icon-linkedin + .subscribe-text {
+    margin-left: 6px;
+  }
+
+  .icon-email + .subscribe-text {
+    margin-left: 5px;
+  }
 }

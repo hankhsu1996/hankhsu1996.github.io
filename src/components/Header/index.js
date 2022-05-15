@@ -8,18 +8,23 @@ import Logo from "../Logo";
 
 import "./style.scss";
 
+// The width is the placeholder for the width of the menu.
+// It's the width when the item is of font weight 500.
 const data = [
   {
     to: "/",
     title: "Home",
+    width: 38.55,
   },
   {
     to: "/projects",
     title: "Projects",
+    width: 53.45,
   },
   {
     to: "/contact",
     title: "Contact",
+    width: 51.1,
   },
 ];
 
@@ -28,7 +33,12 @@ const MenuItems = () => {
     const isActive = item.to === window.location.pathname;
     const className = isActive ? "menu-item menu-item-current" : "menu-item";
     return (
-      <Link key={item.to} to={item.to} className={className}>
+      <Link
+        key={item.to}
+        to={item.to}
+        className={className}
+        style={{ width: `${item.width}px` }}
+      >
         {item.title}
       </Link>
     );

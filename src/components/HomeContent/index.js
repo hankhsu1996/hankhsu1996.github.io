@@ -62,8 +62,6 @@ const HomeContent = () => {
               Engineering.
             </p>
           </div>
-
-          {/* <h2 id="project">Projects</h2> */}
         </div>
       </main>
     </div>

@@ -4,28 +4,23 @@ import { Link } from "react-router-dom";
 import "./style.scss";
 
 const Logo = (props) => {
-  let fullClassName = `logo logo-${props.color} logo-${props.size}`;
-  if (props.clickable === "true") {
+  const fullClassName = `logo logo-${props.color} logo-${props.size}`;
+
+  const logoText = (
+    <span className="logo-text">
+      <i>
+        &lt;SLH<span>/</span>&gt;
+      </i>
+    </span>
+  );
+
+  if (props.clickable === "true")
     return (
       <Link to={"/"} className={fullClassName}>
-        <span className="logo-text">
-          <i>
-            &lt;SLH<span>/</span>&gt;
-          </i>
-        </span>
+        {logoText}
       </Link>
     );
-  } else {
-    return (
-      <div className={fullClassName}>
-        <span className="logo-text">
-          <i>
-            &lt;SLH<span>/</span>&gt;
-          </i>
-        </span>
-      </div>
-    );
-  }
+  else return <div className={fullClassName}>{logoText}</div>;
 };
 
 export default Logo;

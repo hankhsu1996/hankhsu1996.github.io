@@ -9,7 +9,8 @@ const Logo = (props) => {
   const logoText = (
     <span className="logo-text">
       <i>
-        &lt;SLH<span>/</span>&gt;
+        &lt;{props.children}
+        <span>/</span>&gt;
       </i>
     </span>
   );

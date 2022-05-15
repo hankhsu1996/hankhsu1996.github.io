@@ -1,5 +1,5 @@
 import React from "react";
-import Wave from "../../assets/images/milo-mcdowell-3027-unsplash.jpg";
+import CoverImage from "../../assets/images/milo-mcdowell-3027-unsplash.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import Logo from "../Logo";
@@ -12,7 +12,7 @@ const HomeCover = () => {
       <div className="site-cover u-overlay">
         <LazyLoadImage
           className="cover-image jarallax-img u-object-fit"
-          src={Wave}
+          src={CoverImage}
           alt="Wave"
           width="1920px"
           height="1080px"
@@ -22,7 +22,9 @@ const HomeCover = () => {
         />
         <div className="cover-content">
           <div className="cover-logo">
-            <Logo clickable="false" color="light" size="lg" />
+            <Logo clickable="false" color="light" size="lg">
+              SLH
+            </Logo>
           </div>
           <div className="cover-description">
             Shou-Li Hsu's personal website. A place to introduce myself and

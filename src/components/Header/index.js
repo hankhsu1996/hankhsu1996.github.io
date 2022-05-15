@@ -85,7 +85,9 @@ class Header extends React.Component {
     return (
       <header className="site-header container">
         <div className="header-left">
-          <Logo clickable="true" color="dark" size="sm" />
+          <Logo clickable="true" color="dark" size="sm">
+            SLH
+          </Logo>
         </div>
         <div className="header-right">
           <MainNav />

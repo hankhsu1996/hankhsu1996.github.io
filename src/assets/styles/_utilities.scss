@@ -176,3 +176,12 @@
 .has-serif-body .u-text-format > p {
   font-family: var(--font-serif);
 }
+
+.u-flex1 {
+  flex: 1;
+}
+
+.u-align-vertical {
+  display: flex;
+  align-items: center;
+}

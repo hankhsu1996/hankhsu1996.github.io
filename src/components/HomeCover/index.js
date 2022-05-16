@@ -22,7 +22,7 @@ const HomeCover = () => {
         />
         <div className="cover-content">
           <div className="cover-logo">
-            <Logo clickable="false" color="light" size="lg">
+            <Logo color="light" size="lg">
               SLH
             </Logo>
           </div>

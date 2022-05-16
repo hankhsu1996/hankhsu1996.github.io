@@ -15,9 +15,19 @@ const Logo = (props) => {
     </span>
   );
 
-  if (props.clickable === "true")
+  const _disableMobilePress = (e) => {
+    e.preventDefault();
+    return false;
+  };
+
+  if (props.clickable)
     return (
-      <Link to={"/"} className={fullClassName}>
+      <Link
+        to={"/"}
+        className={fullClassName}
+        onTouchStart={_disableMobilePress}
+        onContextMenu={_disableMobilePress}
+      >
         {logoText}
       </Link>
     );

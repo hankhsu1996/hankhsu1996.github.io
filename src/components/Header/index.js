@@ -8,8 +8,8 @@ import Logo from "../Logo";
 
 import "./style.scss";
 
-// The width is the placeholder for the width of the menu.
-// It's the width when the item is of font weight 500.
+// The width is the placeholder for the width of the desktop menu.
+// It's the width when the item is of font size TODO:size and font weight 500.
 const data = [
   {
     to: "/",
@@ -28,7 +28,7 @@ const data = [
   },
 ];
 
-const MenuItems = () => {
+const MenuItems = (props) => {
   const menuItems = data.map((item) => {
     const isActive = item.to === window.location.pathname;
     const className = isActive ? "menu-item menu-item-current" : "menu-item";
@@ -37,7 +37,14 @@ const MenuItems = () => {
         key={item.to}
         to={item.to}
         className={className}
-        style={{ width: `${item.width}px` }}
+        style={
+          props.fixWidth
+            ? {
+                width: item.width,
+              }
+            : {}
+        }
+        // style={{ width: `${item.width}px` }}
       >
         {item.title}
       </Link>
@@ -49,7 +56,7 @@ const MenuItems = () => {
 const MainNav = () => {
   return (
     <nav className="main-nav hidden-xs hidden-sm ">
-      <MenuItems />
+      <MenuItems fixWidth />
     </nav>
   );
 };
@@ -95,7 +102,7 @@ class Header extends React.Component {
     return (
       <header className="site-header container">
         <div className="header-left">
-          <Logo clickable="true" color="dark" size="sm">
+          <Logo clickable color="dark" size="sm">
             SLH
           </Logo>
         </div>

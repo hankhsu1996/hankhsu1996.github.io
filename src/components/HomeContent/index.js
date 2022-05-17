@@ -5,7 +5,7 @@ import "./style.scss";
 const HomeContent = () => {
   return (
     <div className="site-content">
-      <main className="site-main container medium">
+      <main className="site-main">
         <div className="post-content gh-content kg-canvas">
           <h2 id="about">About</h2>
           <p>

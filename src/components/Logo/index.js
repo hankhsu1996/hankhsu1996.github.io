@@ -25,7 +25,6 @@ const Logo = (props) => {
       <Link
         to={"/"}
         className={fullClassName}
-        onTouchStart={_disableMobilePress}
         onContextMenu={_disableMobilePress}
       >
         {logoText}

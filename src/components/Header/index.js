@@ -44,7 +44,6 @@ const MenuItems = (props) => {
               }
             : {}
         }
-        // style={{ width: `${item.width}px` }}
       >
         {item.title}
       </Link>

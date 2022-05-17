@@ -11,12 +11,20 @@ module.exports = {
   devtool: "inline-source-map",
   devServer: {
     static: "./dist",
-    historyApiFallback: true,
+    historyApiFallback: {
+      rewrites: [{ from: /\//, to: "/404.html" }],
+    },
   },
   plugins: [
     new HtmlWebpackPlugin({
+      filename: "index.html",
       title: "Shou-Li Hsu",
       template: "src/assets/templates/home.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "404.html",
+      title: "404",
+      template: "src/assets/templates/404.html",
     }),
     new FaviconsWebpackPlugin("src/assets/images/favicon.png"),
     new MiniCssExtractPlugin(),

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -82,39 +82,30 @@ const MobileMenu = (props) => {
   );
 };
 
-class Header extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isToggleOn: false,
-    };
-    this.handleClick = this.handleClick.bind(this);
-  }
+const Header = () => {
+  const [isToggleOn, setToggleOn] = React.useState(false);
+  const location = useLocation();
 
-  handleClick() {
-    this.setState((prevState) => ({
-      isToggleOn: !prevState.isToggleOn,
-    }));
-  }
+  React.useEffect(() => {
+    setToggleOn(false);
+  }, [location]);
 
-  render() {
-    return (
-      <header className="site-header container">
-        <div className="header-left">
-          <Logo clickable color="dark" size="sm">
-            SLH
-          </Logo>
-        </div>
-        <div className="header-right">
-          <MainNav />
-          <MobileMenu
-            isToggleOn={this.state.isToggleOn}
-            handleClick={this.handleClick}
-          />
-        </div>
-      </header>
-    );
-  }
-}
+  return (
+    <header className="site-header container">
+      <div className="header-left">
+        <Logo clickable color="dark" size="sm">
+          SLH
+        </Logo>
+      </div>
+      <div className="header-right">
+        <MainNav />
+        <MobileMenu
+          isToggleOn={isToggleOn}
+          handleClick={() => setToggleOn(!isToggleOn)}
+        />
+      </div>
+    </header>
+  );
+};
 
 export default Header;

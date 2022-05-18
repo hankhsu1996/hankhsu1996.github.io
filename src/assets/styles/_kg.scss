@@ -75,11 +75,11 @@ blockquote.kg-blockquote-alt {
   display: grid;
   grid-template-columns:
     [full-start]
-    minmax(4vw, auto)
+    minmax(5vw, auto)
     [wide-start]
     minmax(auto, 85px)
     [main-start]
-    min(750px, calc(100% - 8vw))
+    min(750px, calc(100% - 9vw))
     [main-end]
     minmax(auto, 85px)
     [wide-end]

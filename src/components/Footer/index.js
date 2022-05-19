@@ -11,7 +11,7 @@ const Subscribe = () => {
       name: "github",
       icon: faGithub,
       href: "https://github.com/hankhsu1996/",
-      title: "Github",
+      title: "GitHub",
     },
     {
       name: "linkedin",

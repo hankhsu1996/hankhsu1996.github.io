@@ -9,7 +9,7 @@ import Logo from "../Logo";
 import "./style.scss";
 
 // The width is the placeholder for the width of the desktop menu.
-// It's the width when the item is of font size TODO:size and font weight 500.
+// It's the width when the item is of font size 14px and font weight 500.
 const data = [
   {
     to: "/",

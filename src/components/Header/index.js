@@ -40,7 +40,7 @@ const MenuItems = (props) => {
         style={
           props.fixWidth
             ? {
-                width: item.width,
+                width: item.width + 1, // Avoid overflow
               }
             : {}
         }
@@ -86,9 +86,32 @@ const Header = () => {
   const [isToggleOn, setToggleOn] = React.useState(false);
   const location = useLocation();
 
+  const toggleMenu = () => {
+    setToggleOn(!isToggleOn);
+  };
+
+  const closeMenu = () => {
+    setToggleOn(false);
+  };
+
   React.useEffect(() => {
     setToggleOn(false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }, [location]);
+
+  React.useEffect(() => {
+    const handleClick = (event) => {
+      if (event.target.closest(".header-button")) {
+        toggleMenu();
+      } else if (!event.target.closest(".popup")) {
+        closeMenu();
+      }
+    };
+    document.addEventListener("click", handleClick);
+    return () => {
+      document.removeEventListener("click", handleClick);
+    };
+  });
 
   return (
     <header className="site-header container">
@@ -99,10 +122,7 @@ const Header = () => {
       </div>
       <div className="header-right">
         <MainNav />
-        <MobileMenu
-          isToggleOn={isToggleOn}
-          handleClick={() => setToggleOn(!isToggleOn)}
-        />
+        <MobileMenu isToggleOn={isToggleOn} />
       </div>
     </header>
   );

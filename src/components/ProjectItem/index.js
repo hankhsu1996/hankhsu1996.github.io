@@ -4,29 +4,22 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
+import MyLazyLoadImage from "../MyLazyLoadImage";
+
 import "./style.scss";
 
 const ProjectItem = (props) => {
   const { title, excerpt, date, tag, img_src, link } = props.data;
-  const ref = React.useRef(null);
-  const startTime = new Date();
-
-  const revealProject = () => {
-    const elapsedTime = new Date() - startTime;
-    const delay = Math.max(500 - elapsedTime, 0);
-    setTimeout(() => {
-      ref.current.classList.add("loaded");
-    }, delay);
-  };
 
   return (
-    <article className={"post tag-technology"} ref={ref} onLoad={revealProject}>
+    <article className={"post tag-technology"}>
       <div className="post-media js-play">
         <div className="u-placeholder square">
-          <img
-            className="post-image u-object-fit lazyautosizes ls-is-cached lazyloaded"
+          <MyLazyLoadImage
+            className="post-image u-object-fit lazyautosizes ls-is-cached"
             src={img_src}
             alt={title}
+            minDelay={50}
           />
         </div>
       </div>

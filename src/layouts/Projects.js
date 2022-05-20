@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "../components/Header";
+import Author from "../components/Author";
 import ProjectItem from "../components/ProjectItem";
 import Footer from "../components/Footer";
 
@@ -18,10 +19,11 @@ const Projects = () => {
       <div className="site-content">
         <div className="content-area">
           <main className="site-main container medium">
-            <section className="term">
+            {/* <section className="term">
               <h1 className="term-name">{termName}</h1>
               <div className="term-description">{termDescription}</div>
-            </section>
+            </section> */}
+            <Author />
             <div className="post-feed">
               {projects
                 .sort((a, b) => {

@@ -72,6 +72,14 @@
     "link": ""
   },
   {
+    "title": "Murphi VS Code Language Extension",
+    "excerpt": "The VS Code language extension for Murphi model checker language. It supports syntax highlighting and code completion.",
+    "date": "2021-02-28",
+    "tag": "Software",
+    "img_src": "https://source.unsplash.com/_yMciiStJyY",
+    "link": ""
+  },
+  {
     "title": "Snake Language Compiler",
     "excerpt": "A compiler for the snake language written in Rust. It realizes the register allocation algorithm and first-class function support.",
     "date": "2021-12-10",

@@ -1,0 +1,14 @@
+@import "../../assets/styles/feed";
+@import "../../assets/styles/term";
+@import "../../assets/styles/post";
+
+.post-feed {
+  .post {
+    opacity: 0;
+  }
+
+  .post.loaded {
+    opacity: 1;
+    transition: opacity 0.5s var(--animation-base);
+  }
+}

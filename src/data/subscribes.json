@@ -1,0 +1,32 @@
+[
+  {
+    "name": "github",
+    "href": "https://github.com/hankhsu1996/",
+    "title": "GitHub",
+    "icon": "fa-github",
+    "iconSize": "20px",
+    "iconPaddingBottom": "1pt",
+    "iconColor": "#181717",
+    "iconTextSpacing": "6px"
+  },
+  {
+    "name": "linkedin",
+    "href": "https://www.linkedin.com/in/hankhsu1996/",
+    "title": "LinkedIn",
+    "icon": "fa-linkedin",
+    "iconSize": "21px",
+    "iconPaddingBottom": "1.5pt",
+    "iconColor": "#0a66c2",
+    "iconTextSpacing": "6px"
+  },
+  {
+    "name": "facebook",
+    "href": "https://www.facebook.com/hankhsu1996/",
+    "title": "Facebook",
+    "icon": "fa-facebook",
+    "iconSize": "21px",
+    "iconPaddingBottom": "1.5pt",
+    "iconColor": "#4267B2",
+    "iconTextSpacing": "6px"
+  }
+]

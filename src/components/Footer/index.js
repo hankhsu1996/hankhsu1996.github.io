@@ -1,45 +1,36 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAt } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+import subscribes from "../../data/subscribes.json";
 
 import "./style.scss";
 
 const Subscribe = () => {
-  const data = [
-    {
-      name: "github",
-      icon: faGithub,
-      href: "https://github.com/hankhsu1996/",
-      title: "GitHub",
-    },
-    {
-      name: "linkedin",
-      icon: faLinkedin,
-      href: "https://www.linkedin.com/in/hankhsu1996/",
-      title: "LinkedIn",
-    },
-    {
-      name: "email",
-      icon: faAt,
-      href: "mailto:hankhsu@umich.edu",
-      title: "Email",
-    },
-  ];
-
-  const subscribeItems = data.map((item) => {
+  const subscribeItems = subscribes.map((sub) => {
     return (
       <a
-        key={item.name}
-        href={item.href}
+        key={sub.name}
+        href={sub.href}
         target="_blank"
         className="subscribe-link"
       >
         <FontAwesomeIcon
-          icon={item.icon}
-          className={`icon icon-${item.name}`}
+          icon={["fa-brands", sub.icon]}
+          className={`icon icon-${sub.name}`}
+          style={{
+            fontSize: sub.iconSize,
+            paddingBottom: sub.iconPaddingBottom,
+            color: sub.iconColor,
+          }}
         />
-        <span className="subscribe-text">{item.title}</span>
+        <span
+          className="subscribe-text"
+          style={{
+            marginLeft: sub.iconTextSpacing,
+          }}
+        >
+          {sub.title}
+        </span>
       </a>
     );
   });

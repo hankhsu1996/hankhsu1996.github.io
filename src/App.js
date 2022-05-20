@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
 import Home from "./layouts/Home";
 import Projects from "./layouts/Projects";
 import Tag from "./layouts/Tag";
@@ -8,6 +11,8 @@ import Contact from "./layouts/Contact";
 import PageNotFound from "./layouts/PageNotFound";
 
 import "./style.scss";
+
+library.add(fab);
 
 const App = () => {
   return (

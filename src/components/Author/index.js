@@ -21,7 +21,7 @@ const Author = () => {
           <header className="author-header">
             <h4 className="author-name">Shou-Li Hsu</h4>
           </header>
-          <span className="author-meta">CPU RTL Design Engineer in Intel</span>
+          <span className="author-meta">Intel CPU Design Engineer </span>
           <div className="author-bio">
             Here are some of the projects I've worked on. The read more buttons
             are not working yet.

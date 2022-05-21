@@ -14,8 +14,8 @@
     "href": "https://www.linkedin.com/in/hankhsu1996/",
     "title": "LinkedIn",
     "icon": "fa-linkedin",
-    "iconSize": "21px",
-    "iconPaddingBottom": "1.5pt",
+    "iconSize": "22px",
+    "iconPaddingBottom": "0.5pt",
     "iconColor": "#0a66c2",
     "iconTextSpacing": "6px"
   },
@@ -26,7 +26,7 @@
     "icon": "fa-facebook",
     "iconSize": "21px",
     "iconPaddingBottom": "1.5pt",
-    "iconColor": "#4267B2",
+    "iconColor": "#1778F2",
     "iconTextSpacing": "6px"
   }
 ]

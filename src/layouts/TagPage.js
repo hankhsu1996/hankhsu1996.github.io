@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 import projects from "../data/projects.json";
 
-const Tag = () => {
+const TagPage = () => {
   const params = useParams();
   const _projects = projects.filter(
     (proj) => proj.tag.toLowerCase() === params.tag
@@ -45,4 +45,4 @@ const Tag = () => {
   );
 };
 
-export default Tag;
+export default TagPage;

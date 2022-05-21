@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import PageNotFoundContent from "../components/PageNotFoundContent";
 import Footer from "../components/Footer";
 
-const PageNotFound = () => {
+const NotFoundPage = () => {
   return (
     <>
       <Header />
@@ -13,4 +13,4 @@ const PageNotFound = () => {
   );
 };
 
-export default PageNotFound;
+export default NotFoundPage;

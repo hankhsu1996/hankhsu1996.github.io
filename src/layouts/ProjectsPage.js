@@ -7,22 +7,13 @@ import Footer from "../components/Footer";
 
 import projects from "../data/projects.json";
 
-const Projects = () => {
-  let termName, termDescription;
-
-  termName = "Projects";
-  termDescription = "Here are some of the projects I've worked on.";
-
+const ProjectsPage = () => {
   return (
     <>
       <Header />
       <div className="site-content">
         <div className="content-area">
           <main className="site-main container medium">
-            {/* <section className="term">
-              <h1 className="term-name">{termName}</h1>
-              <div className="term-description">{termDescription}</div>
-            </section> */}
             <Author />
             <div className="post-feed">
               {projects
@@ -41,4 +32,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsPage;

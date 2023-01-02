@@ -1,7 +1,7 @@
 {
-  "name": "website",
+  "name": "hankhsu1996.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shou-Li Hsu's Personal Website",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,9 +11,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["Shou-Li Hsu", "hankhsu1996"],
+  "author": "Shou-Li Hsu",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",

@@ -53,13 +53,13 @@ const ProjectItem = (props) => {
         </header>
         <div className="post-excerpt">{excerpt}</div>
         <footer className="post-footer">
-          <Link className="button-text post-footer-more" to={link}>
+          {/* <Link className="button-text post-footer-more" to={link}>
             <FontAwesomeIcon
               icon={faChevronRight}
               className="icon icon-chevron-right"
             />
             Read more NYI
-          </Link>
+          </Link> */}
         </footer>
       </div>
     </article>

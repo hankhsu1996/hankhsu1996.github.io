@@ -15,8 +15,8 @@ const HomeContent = () => {
           </p>
           <p>
             He received his bachelor’s degree at National Taiwan University,
-            Taipei, Taiwan, and his master’s degree at University of Michigan,
-            Ann Arbor, MI, USA.
+            Taipei, Taiwan in 2019, and his master’s degree at University of Michigan,
+            Ann Arbor, MI, USA in 2022.
           </p>
           <p>
             He worked in MemryX Inc as an integrated circuit engineer intern. He
@@ -26,6 +26,14 @@ const HomeContent = () => {
           </p>
 
           <h2 id="work">Work Experience</h2>
+          <div className="work-item">
+            <h3>Intel Corporation</h3>
+            <h4>CPU RTL Design Engineer | June 2022 – Present</h4>
+            <p>
+              Designed L1 cache and load store unit microarchitecture of an x86 CPU.
+            </p>
+          </div>
+
           <div className="work-item">
             <h3>MemryX Inc</h3>
             <h4>IC Design Intern | May 2021 – Aug. 2021</h4>

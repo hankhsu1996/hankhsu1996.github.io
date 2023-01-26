@@ -19,6 +19,7 @@ module.exports = {
       filename: "index.html",
       title: "Shou-Li Hsu",
       template: "src/assets/templates/home.html",
+      favicon: "./src/assets/images/favicon.png",
       minify: {
         collapseWhitespace: true,
         removeComments: true,

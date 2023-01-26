@@ -1,6 +1,5 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
@@ -46,26 +45,6 @@ module.exports = {
         minifyJS: { compress: { conditionals: false } },
         minifyCSS: true,
         minifyURLs: true,
-      },
-    }),
-    new FaviconsWebpackPlugin({
-      logo: "./src/assets/images/favicon.png",
-      prefix: "assets/",
-      persistentCache: true,
-      inject: true,
-      background: "#fff",
-      title: "Shou-Li Hsu",
-      icons: {
-        android: true,
-        appleIcon: true,
-        appleStartup: false,
-        coast: false,
-        favicons: true,
-        firefox: true,
-        opengraph: false,
-        twitter: false,
-        yandex: false,
-        windows: false,
       },
     }),
     new MiniCssExtractPlugin(),

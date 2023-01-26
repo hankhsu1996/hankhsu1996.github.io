@@ -2,16 +2,17 @@
   "name": "hankhsu1996.github.io",
   "version": "1.0.0",
   "description": "Shou-Li Hsu's Personal Website",
-  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack serve",
     "build": "webpack --mode=production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "keywords": ["Shou-Li Hsu", "hankhsu1996"],
+  "keywords": [
+    "Shou-Li Hsu",
+    "hankhsu1996"
+  ],
   "author": "Shou-Li Hsu",
   "license": "MIT",
   "devDependencies": {

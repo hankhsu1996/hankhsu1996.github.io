@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -47,6 +48,14 @@ module.exports = {
         minifyCSS: true,
         minifyURLs: true,
       },
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: "src/google2bab21e00b28d4fc.html",
+          to: "google2bab21e00b28d4fc.html",
+        },
+      ],
     }),
     new MiniCssExtractPlugin(),
   ],

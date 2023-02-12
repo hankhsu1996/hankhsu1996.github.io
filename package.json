@@ -7,11 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack serve",
-    "build": "webpack --mode=production",
+    "build:sitemap": "node src/sitemap.js > dist/sitemap.xml",
+    "build": "webpack --mode=production && npm run build:sitemap",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "keywords": ["Shou-Li Hsu", "hankhsu1996"],
+  "keywords": [
+    "Shou-Li Hsu",
+    "hankhsu1996"
+  ],
   "author": "Shou-Li Hsu",
   "license": "MIT",
   "devDependencies": {
@@ -40,9 +44,10 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
     "babel-plugin-macros": "^3.1.0",
-    "react": "^18.1.0",
+    "react": "^18.2.0",
     "react-dom": "^18.1.0",
     "react-lazy-load-image-component": "^1.5.4",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.8.1",
+    "sitemap": "^7.1.1"
   }
 }

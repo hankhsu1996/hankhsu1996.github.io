@@ -9,20 +9,26 @@ const HomeContent = () => {
         <div className="post-content gh-content kg-canvas">
           <h2 id="about">About</h2>
           <p>
-            Shou-Li Hsu is a Taiwanese digital circuit designer specialized in
-            CPU design and transistor-level VLSI. His background is in mmWave
-            IC, cell-based digital IC, and full-custom digital IC.
+            Shou-Li Hsu is a highly skilled digital circuit designer from
+            Taiwan, specializing in CPU design and transistor-level VLSI. With a
+            strong background in mmWave IC, cell-based digital IC, and
+            full-custom digital IC, he is well-equipped to handle complex
+            circuit design challenges.
           </p>
           <p>
-            He received his bachelor’s degree at National Taiwan University,
-            Taipei, Taiwan in 2019, and his master’s degree at University of Michigan,
-            Ann Arbor, MI, USA in 2022.
+            Shou-Li received his bachelor's degree from National Taiwan
+            University in Taipei, Taiwan in 2019, and went on to complete his
+            master's degree at the University of Michigan in Ann Arbor, MI, USA
+            in 2022.
           </p>
           <p>
-            He worked in MemryX Inc as an integrated circuit engineer intern. He
-            was also employed in Tron Future Tech as a digital design engineer
-            intern. He is currently employed by Intel as a full-time CPU RTL
-            design engineer in Hillsboro, OR, USA.
+            Throughout his academic career, Shou-Li has gained valuable industry
+            experience working as an integrated circuit engineer intern at
+            MemryX Inc, and as a digital design engineer intern at Tron Future
+            Tech. He is currently a full-time CPU RTL design engineer at Intel's
+            Hillsboro, OR, USA location, where he continues to hone his skills
+            and contribute to the advancement of cutting-edge circuit design
+            technology.
           </p>
 
           <h2 id="work">Work Experience</h2>
@@ -30,7 +36,15 @@ const HomeContent = () => {
             <h3>Intel Corporation</h3>
             <h4>CPU RTL Design Engineer | June 2022 – Present</h4>
             <p>
-              Designed L1 cache and load store unit microarchitecture of an x86 CPU.
+              As a microarchitect, I was responsible for contributing to the
+              design and implementation of the L1 cache and load store unit
+              microarchitecture of an x86 CPU. Working collaboratively with a
+              team of designers and engineers, I utilized my expertise in CPU
+              design and advanced design software to create a high-performance
+              and efficient microarchitecture that met the required
+              specifications. My contributions to the project helped to ensure
+              its success and contributed to the overall advancement of x86 CPU
+              technology.
             </p>
           </div>
 
@@ -38,10 +52,12 @@ const HomeContent = () => {
             <h3>MemryX Inc</h3>
             <h4>IC Design Intern | May 2021 – Aug. 2021</h4>
             <p>
-              Optimized the microarchitecture of the inter-layer communication
-              module in an AI chip and achieved 50% area reduction. Integrated
-              the AI core, ARM Cortex-M3 processor, and peripherals into an SoC
-              and performed chip-level verification.
+              As an IC design intern at MemryX, I optimized the inter-layer
+              communication module in an AI chip, achieving a 50% area
+              reduction. I also integrated the AI core, ARM Cortex-M3 processor,
+              and peripherals into an SoC and performed chip-level verification,
+              contributing to the advancement of cutting-edge IC design
+              technology.
             </p>
           </div>
 
@@ -49,9 +65,14 @@ const HomeContent = () => {
             <h3>Tron Future Tech</h3>
             <h4>Digital Design Intern | June 2020 – Nov. 2020</h4>
             <p>
-              Prototyped a communication IP on Xilinx FPGAs and integrated it
-              into a transmitter system. Developed single-event upset protection
-              mechanisms for SRAM-based FPGAs.
+              As a Digital Design Intern at Tron Future Tech, I played a key
+              role in prototyping a communication IP on Xilinx FPGAs and
+              integrating it into a transmitter system. In addition, I developed
+              single-event upset protection mechanisms for SRAM-based FPGAs,
+              utilizing my knowledge of design principles and advanced tools to
+              optimize system reliability and robustness. Through my
+              contributions, I helped to advance FPGA technology and gain
+              valuable industry experience.
             </p>
           </div>
 

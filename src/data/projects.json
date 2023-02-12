@@ -9,7 +9,7 @@
   },
   {
     "title": "Hexapod Robot Gait Development",
-    "excerpt": "An undergrads research project on the development of a hexapod robot gait. The new flip-and-jump gait allows the robot to jump over obstacles.",
+    "excerpt": "This undergraduate research project focuses on developing a hexapod robot gait. A new flip-and-jump gait is proposed, which enables the robot to overcome obstacles with ease.",
     "date": "2018-07-31",
     "tag": "Robot",
     "img_src": "https://source.unsplash.com/GNk9IAiIvrg",
@@ -17,7 +17,7 @@
   },
   {
     "title": "FountainScape Drawing Robot",
-    "excerpt": "A 2-Dimensional numerical control drawing robot. The robot is capable of drawing SVG files and features an easy-to-use web interface.",
+    "excerpt": "This numerical control drawing robot can draw 2D SVG files and has an intuitive web interface, ideal for artists, designers, and hobbyists who require precision drawings.",
     "date": "2018-06-30",
     "tag": "Robot",
     "img_src": "https://source.unsplash.com/l3N9Q27zULw",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Ka-Band IQ Mixer in GaAs Process",
-    "excerpt": "A Ka-band IQ mixer based on GaAs pHEMT process which aims to reduce the image noise in the ngVLA radio telescope. The chip is taped-out in Jan. 2020.",
+    "excerpt": "A GaAs pHEMT-based Ka-band IQ mixer is designed to decrease image noise in the ngVLA radio telescope. The chip is taped-out in Jan. 2020.",
     "date": "2019-07-31",
     "tag": "Analog",
     "img_src": "https://source.unsplash.com/fsH1KjbdjE8",
@@ -33,7 +33,7 @@
   },
   {
     "title": "AES Algorithm Hardware Accelerator",
-    "excerpt": "A hardware accelerator for the Advanced Encryption Standard algorithm. The accelerator supports ECB and CBC modes, and is taped-out in UMC 0.18 process.",
+    "excerpt": "A UMC 0.18 process-taped hardware accelerator is designed for the Advanced Encryption Standard algorithm. It supports both ECB and CBC modes.",
     "date": "2019-06-30",
     "tag": "Digital",
     "img_src": "https://source.unsplash.com/BcjdbyKWquw",
@@ -41,7 +41,7 @@
   },
   {
     "title": "Classic Five-Stage RISC-V Processor",
-    "excerpt": "A classic five-stage pipelined RISC-V RV32I processor with data forwarding unit. Implemented in SystemVerilog and synthesized with Design Compiler.",
+    "excerpt": "A classic RV32I RISC-V processor with data forwarding unit is synthesized using Design Compiler. The processor features a five-stage pipeline and is implemented in SystemVerilog.",
     "date": "2020-11-30",
     "tag": "Digital",
     "img_src": "https://source.unsplash.com/d21CGQKtJh8",
@@ -49,7 +49,7 @@
   },
   {
     "title": "Superscalar Dynamically-Scheduled RISC-V Processor",
-    "excerpt": "A two-way superscalar, dynamically-scheduled RISC-V processor with MIPS R10000 style register renaming written in SystemVerilog. Ranked 1st in the class.",
+    "excerpt": "A SystemVerilog-written RISC-V processor ranked 1st in class, features a two-way superscalar, dynamically-scheduled design with MIPS R10000 style register renaming.",
     "date": "2020-12-31",
     "tag": "Digital",
     "img_src": "https://source.unsplash.com/RBthQZJd_vU",
@@ -57,7 +57,7 @@
   },
   {
     "title": "Full-Custom Layout RISC Processor",
-    "excerpt": "A RISC processor with a full-custom register file, ALU and barrel shifter. The schematics and layouts are designed in Cadence Virtuoso.",
+    "excerpt": "A RISC processor featuring a full-custom register file, ALU, and barrel shifter is designed with Cadence Virtuoso's schematic and layout tools.",
     "date": "2021-04-20",
     "tag": "Digital",
     "img_src": "https://source.unsplash.com/M0yAcynJr6M",
@@ -65,7 +65,7 @@
   },
   {
     "title": "MOESI Cache-Coherence Protocol Verification",
-    "excerpt": "A formal verification of the MOESI cache-coherence protocol implemented in Murphi model checker.",
+    "excerpt": "The MOESI cache-coherence protocol is formally verified using the Murphi model checker.",
     "date": "2021-03-31",
     "tag": "Digital",
     "img_src": "https://source.unsplash.com/eaDwf4UAEhk",
@@ -73,7 +73,7 @@
   },
   {
     "title": "Murphi VS Code Language Extension",
-    "excerpt": "The VS Code language extension for Murphi model checker language. It supports syntax highlighting and code completion.",
+    "excerpt": "The Murphi model checker language is extended with syntax highlighting and code completion through the VS Code language extension.",
     "date": "2021-02-28",
     "tag": "Software",
     "img_src": "https://source.unsplash.com/_yMciiStJyY",
@@ -81,7 +81,7 @@
   },
   {
     "title": "Snake Language Compiler",
-    "excerpt": "A compiler for the snake language written in Rust. It realizes the register allocation algorithm and first-class function support.",
+    "excerpt": "A Rust-written compiler for the Snake language supports the register allocation algorithm and first-class function feature.",
     "date": "2021-12-10",
     "tag": "Software",
     "img_src": "https://source.unsplash.com/BfrQnKBulYQ",
@@ -97,7 +97,7 @@
   },
   {
     "title": "Side-Channel Attack Resistant AES SoC",
-    "excerpt": "A power side-channel attack resistant AES SoC with a stacked-voltage domain backend design. The backend features a digital LDO and a special level shifter.",
+    "excerpt": "The project aims to design a secure AES system-on-chip (SoC) with a stacked-voltage domain backend design, providing resistance to power side-channel attacks. Special features such as a digital LDO and level shifter will further enhance the system's security.",
     "date": "2022-04-20",
     "tag": "Digital",
     "img_src": "https://source.unsplash.com/t2fKRcKF3fw",
@@ -105,7 +105,7 @@
   },
   {
     "title": "Radio Receiver Design",
-    "excerpt": "A radio receiver design including a 1.8 GHz low-noise amplifier, a Gilbert cell mixer and a 1.7 GHz voltage-controlled resonant oscillator in IBM 130 process.",
+    "excerpt": "The project aims to integrate a low-noise amplifier, Gilbert cell mixer, and voltage-controlled resonant oscillator into an IBM 130 process, producing an analog radio receiver operating at 1.7-1.8 GHz.",
     "date": "2022-04-30",
     "tag": "Analog",
     "img_src": "https://source.unsplash.com/tkE5nutsKt8",
@@ -113,7 +113,7 @@
   },
   {
     "title": "Personal Website",
-    "excerpt": "A single-page application personal website built with React and Webpack and hosted on GitHub Pages.",
+    "excerpt": "A sleek and modern single-page application website created using React and Webpack, and hosted on GitHub Pages for easy access.",
     "date": "2022-05-19",
     "tag": "Software",
     "img_src": "https://source.unsplash.com/7okkFhxrxNw",

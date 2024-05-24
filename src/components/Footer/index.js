@@ -41,7 +41,7 @@ const Subscribe = () => {
 const Copyright = () => {
   return (
     <div className="copyright">
-      <p>Shou-Li Hsu © 2022</p>
+      <p>Shou-Li Hsu © 2024</p>
       <p>
         Theme by{" "}
         <a href="https://github.com/TryGhost/Wave" target="_blank">

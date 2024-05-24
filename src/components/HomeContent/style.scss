@@ -1,15 +1,15 @@
 @import "./content";
-@import "./work";
-@import "./education";
 @import "../../assets/styles/kg";
 
 .site-content {
   flex-grow: 1;
   padding: 60px 0;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 767px) {
   .site-content {
     padding: 40px 0;
+    margin-bottom: 60px;
   }
 }

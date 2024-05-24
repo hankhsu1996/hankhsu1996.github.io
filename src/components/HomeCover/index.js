@@ -16,7 +16,7 @@ const HomeCover = () => {
           alt="Wave"
           width="1920px"
           height="1080px"
-          afterLoad={() => {
+          onLoad={() => {
             document.querySelector(".site-cover").classList.add("initialized");
           }}
         />

@@ -10,7 +10,7 @@
     <span role="img" aria-label="location">📍</span> Hillsboro, OR, USA
   </div>
   <div class="info-item">
-    <span role="img" aria-label="date">📅</span> June 2022 – Present
+    <span role="img" aria-label="date">⏳</span> June 2022 – Present
   </div>
 </div>
 
@@ -26,7 +26,7 @@ Shou-Li focuses on the design and implementation of the L0 and L1 cache, prefetc
     <span role="img" aria-label="location">📍</span> Hsinchu, Taiwan
   </div>
   <div class="info-item">
-    <span role="img" aria-label="date">📅</span> May 2021 – Aug. 2021
+    <span role="img" aria-label="date">⏳</span> May 2021 – Aug. 2021
   </div>
 </div>
 
@@ -42,7 +42,7 @@ At MemryX, Shou-Li optimized the microarchitecture of deep learning layers in an
     <span role="img" aria-label="location">📍</span> Hsinchu, Taiwan
   </div>
   <div class="info-item">
-    <span role="img" aria-label="date">📅</span> June 2020 – Nov. 2020
+    <span role="img" aria-label="date">⏳</span> June 2020 – Nov. 2020
   </div>
 </div>
 

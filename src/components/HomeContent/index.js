@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
 import aboutContent from "./about.md";
 import workContent from "./work.md";
 import educationContent from "./education.md";
@@ -27,19 +28,23 @@ const HomeContent = () => {
       <main className="site-main">
         <div className="post-content gh-content kg-canvas">
           <div className="about">
-            <ReactMarkdown>{about}</ReactMarkdown>
+            <ReactMarkdown rehypePlugins={[rehypeRaw]}>{about}</ReactMarkdown>
           </div>
           <div className="work">
-            <ReactMarkdown>{work}</ReactMarkdown>
+            <ReactMarkdown rehypePlugins={[rehypeRaw]}>{work}</ReactMarkdown>
           </div>
           <div className="education">
-            <ReactMarkdown>{education}</ReactMarkdown>
+            <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+              {education}
+            </ReactMarkdown>
           </div>
           <div className="skills">
-            <ReactMarkdown>{skills}</ReactMarkdown>
+            <ReactMarkdown rehypePlugins={[rehypeRaw]}>{skills}</ReactMarkdown>
           </div>
           <div className="projects">
-            <ReactMarkdown>{projects}</ReactMarkdown>
+            <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+              {projects}
+            </ReactMarkdown>
           </div>
         </div>
       </main>

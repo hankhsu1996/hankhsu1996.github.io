@@ -1,16 +1,30 @@
 ## Work Experience
 
+### AheadComputing Inc.
+<div class="info-container">
+  <div class="info-item">
+    <span role="img" aria-label="position">⚙️</span> Senior CPU RTL Design Engineer
+  </div>
+  <div class="info-item">
+    <span role="img" aria-label="location">📍</span> Beaverton, OR, USA </div>
+  <div class="info-item">
+    <span role="img" aria-label="date">🕒</span> Aug. 2025 – Present
+  </div>
+</div>
+
+At AheadComputing Inc., Shou-Li works on the bring-up of a modern out-of-order core, covering stages such as rename, scheduling, and retire, with a primary focus on scheduling. His role involves extensive debugging and exploring AI-driven enhancements to streamline development processes.
+
 ### Intel Corporation
 
 <div class="info-container">
   <div class="info-item">
-    <span role="img" aria-label="position">🛠️</span> CPU RTL Design Engineer
+    <span role="img" aria-label="position">⚙️</span> CPU RTL Design Engineer
   </div>
   <div class="info-item">
     <span role="img" aria-label="location">📍</span> Hillsboro, OR, USA
   </div>
   <div class="info-item">
-    <span role="img" aria-label="date">⏳</span> June 2022 – Present
+    <span role="img" aria-label="date">🕒</span> June 2022 – Aug. 2025
   </div>
 </div>
 
@@ -20,13 +34,13 @@ Shou-Li focuses on the design and implementation of the L0 and L1 cache, prefetc
 
 <div class="info-container">
   <div class="info-item">
-    <span role="img" aria-label="position">🛠️</span> IC Design Intern
+    <span role="img" aria-label="position">⚙️</span> IC Design Intern
   </div>
   <div class="info-item">
     <span role="img" aria-label="location">📍</span> Hsinchu, Taiwan
   </div>
   <div class="info-item">
-    <span role="img" aria-label="date">⏳</span> May 2021 – Aug. 2021
+    <span role="img" aria-label="date">🕒</span> May 2021 – Aug. 2021
   </div>
 </div>
 
@@ -36,13 +50,13 @@ At MemryX, Shou-Li optimized the microarchitecture of deep learning layers in an
 
 <div class="info-container">
   <div class="info-item">
-    <span role="img" aria-label="position">🛠️</span> Digital Design Intern
+    <span role="img" aria-label="position">⚙️</span> Digital Design Intern
   </div>
   <div class="info-item">
     <span role="img" aria-label="location">📍</span> Hsinchu, Taiwan
   </div>
   <div class="info-item">
-    <span role="img" aria-label="date">⏳</span> June 2020 – Nov. 2020
+    <span role="img" aria-label="date">🕒</span> June 2020 – Nov. 2020
   </div>
 </div>
 
